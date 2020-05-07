@@ -16,7 +16,7 @@ client.on('ready', () => {
 client.on('message', message => {
     console.log(message.content);
     if (message.content === 'funcionas?') {
-        message.reply('si po rey');
+        message.reply('si po rey, y en la ultima versión');
     }
 
     if (message.content === 'hola') {
