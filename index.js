@@ -10,12 +10,12 @@ client.on('ready', () => {
 client.on('message', message => {
     console.log(message.content);
     if (message.content === 'funcionas?') {
-        message.reply('si');
+        message.reply('si po rey');
     }
 
     if (message.content === 'hola') {
         setTimeout(function () {
-            message.channel.send(`Wena ${message.author}`)
+            message.channel.send(`Wena maricon conchetumare ${message.author}`)
         }, 5000);
     }
 });
